@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeManagementActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".EmployeeManagementActivity">
+        <TableLayout
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/imgEmployeeHealthCare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_doctor" />
+
+                    <TextView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/txtEmployeeHealthCare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_health_care"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeSalary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_salary" />
+
+                    <TextView
+                        android:id="@+id/txtEmployeeSalary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_salary"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeHealthCare2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="open_employee_health_care_activity"
+                        app:srcCompat="@mipmap/ic_customer" />
+
+                    <TextView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/txtEmployeeHealthCare2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_health_care"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeSalary2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_salary" />
+
+                    <TextView
+                        android:id="@+id/txtEmployeeSalary2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_salary"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/imgEmployeeHealthCare3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_doctor" />
+
+                    <TextView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/txtEmployeeHealthCare3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_health_care"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeSalary3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_salary" />
+
+                    <TextView
+                        android:id="@+id/txtEmployeeSalary3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_salary"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeHealthCare4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="open_employee_health_care_activity"
+                        app:srcCompat="@mipmap/ic_customer" />
+
+                    <TextView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/txtEmployeeHealthCare4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_health_care"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeSalary4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_salary" />
+
+                    <TextView
+                        android:id="@+id/txtEmployeeSalary4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_salary"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/imgEmployeeHealthCare5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_doctor" />
+
+                    <TextView
+                        android:onClick="open_employee_health_care_activity"
+                        android:id="@+id/txtEmployeeHealthCare5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_health_care"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEmployeeSalary5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_salary" />
+
+                    <TextView
+                        android:id="@+id/txtEmployeeSalary5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#025A73"
+                        android:text="@string/title_salary"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
